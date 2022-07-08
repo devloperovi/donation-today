@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .first-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(110, 100, 100, 0.719), rgba(2, 0, 0, 0.555)),
+      url(picture/cover.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  .first-content {
+    text-align: center;
+  }
+  
+  .first-content h1 {
+    font-size: 6rem;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  
+  .p-section {
+    color: #fff;
+    padding-bottom: 60px;
+    word-spacing: 2px;
+    line-height: 25px;
+  }
+  .button {
+    padding: 15px 30px;
+    background-color: 	 #34568b;
+    color: #000000;
+    border-radius: 10px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .heading h1 {
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  
+  
+  .help-people {
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .amount-list {
+    padding: 25px 15px;
+    background: rgba(243, 239, 240, 0.356);
+    margin: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .amount-list a {
+    color: rgba(46, 39, 39, 0.603);
+    font-weight: 600;
+    padding: 15px 10px;
+  }
+  
+  
+  .p {
+    color: #000;
+  }
+  
+  
+  
+  #donation {
+    border: 2px solid rgb(204, 173, 163);
+    background-color: rgb(238, 238, 238);
+  }
+  
+  
+  
+  #donation a {
+    color: rgb(182, 129, 31);
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  .donation-type {
+    text-align: center;
+  }
+  
+  .donet-input-item {
+    width: 500px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(228, 222, 222, 0.795);
+    outline: none;
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  ::placeholder {
+    text-align: center;
+    color: rgba(196, 160, 95, 0.678);
+  }
+  
+  
+  
+  .gallery {
+    
+    margin: 10px;
+    border: 10px solid #ccc;
+    float: left;
+   
+    width: 350px;
+  }
+  
+  .gallery {
+    
+    border: 10px solid rgb(19, 18, 18);
+  }
+  
+  .gallery img {
+    
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .half-width #h{
+  
+    text-align: center;
+  }
+  
+  
+  
+  
+  vid .half-width{
+    text-align: center;
+    width:40%;
+    float: left;
+    margin-bottom: 5px;
+    
+    padding-left: 2%;
+  }
+  
+  
+  .video{
+    margin-left: 5%
+    
+  
+    
+  };
+  
+
+
+
+
+
+
+
+  
+  .subscribe{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+  }
+  
+  .subscribe-content {
+    background: rgb(247, 238, 217);
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe-box {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+  }
+  
+  .subscribe-button {
+    
+    height: 50px;
+    padding: 0 30px;
+    background-color: rgb(175, 99, 36);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  
+  .footer {
+    height: 200px;
+    background: skyblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-container h1 {
+    
+    color: rgb(116, 18, 38);
+    padding-bottom: 50px;
+  
+  }
+  
+  .footer-container h3 {
+    color: red;
+    font-weight: 500px;
+    
+  }
+  
+  
